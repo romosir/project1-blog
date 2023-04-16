@@ -1,0 +1,72 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-Light'), url(./font/open_sans/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-Semibold'), url(./font/open_sans/OpenSans-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-Bold'), url(./font/open_sans/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-ExtraBold'), url(./font/open_sans/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-Italic'), url(./font/open_sans/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    font-style: normal;
+    font-weight: 700;
+    src: local('OpenSans-Regular'), url(./font/open_sans/OpenSans-Regular.ttf) format('truetype');
+} 
+
+*{
+    font-family: "OpenSans-Light", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "OpenSans-Regular", Arial, sans-serif;
+    color: var(--color-blueish-dark);
+    text-transform: uppercase;
+}
+
+.nav-title {
+    font-family: "OpenSans-Bold", Arial, sans-serif;
+    font-size: 2rem;
+    color: var(--color-blueish-superdark);
+}
+
+.nav-link {
+    font-family: "OpenSans-Bold", Arial, sans-serif;
+    color: var(--color-blueish-superdark);
+}
+
+.card-caption {
+    font-family: "OpenSans-Italic", Arial, sans-serif;
+    font-size: 0.5rem;
+}

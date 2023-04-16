@@ -1,0 +1,16 @@
+@import url(./button.css);
+@import url(./typography.css);
+@import url(./colors.css);
+@import url(./layout.css);
+
+.btn-main {
+    border: 1px solid var(color-blueish-dark);
+    padding: 1rem;
+}
+
+a:hover,
+.btn-main:hover {
+    color: var(--color-background);
+    background-color: var(--color-yellowish);
+    border: none;
+}
