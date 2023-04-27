@@ -57,13 +57,16 @@ h4 {
 
 .nav-title {
     font-family: "OpenSans-Bold", Arial, sans-serif;
-    font-size: 2rem;
-    color: var(--color-blueish-superdark);
+    font-size: 4rem;
+    color: var(--color-background);
+    background-color: var(--color-blueish-superdark);
+    padding: 0 1rem 0 1rem;
 }
 
 .nav-link {
-    font-family: "OpenSans-Bold", Arial, sans-serif;
+    font-family: "OpenSans-Light", Arial, sans-serif;
     color: var(--color-blueish-superdark);
+    font-size: 2rem;
 }
 
 .card-caption {

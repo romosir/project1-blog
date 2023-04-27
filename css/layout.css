@@ -1,8 +1,9 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--color-background);
+    height: 5rem;
 }
 
 .nav-link{
