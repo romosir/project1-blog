@@ -67,3 +67,17 @@
     border-radius: 50%;
 }
 
+.article-share {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+.article-share img{
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    opacity: 30%;
+}
